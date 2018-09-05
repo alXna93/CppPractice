@@ -1,5 +1,7 @@
 // included libraries
 #include <stdlib.h> //standard library
+#include <iostream> //input output library
+
 
 
 
@@ -7,6 +9,8 @@
 //every C++ program needs a main() function
 int main()
 {
+	std::cout << "Hello World!   " << std::endl;
+	
 
 	//wait for user to press button before continuing 
 	system("PAUSE");
